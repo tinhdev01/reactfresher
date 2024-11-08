@@ -49,7 +49,7 @@ const LoginPage = () => {
                 name="fullName"
                 rules={[
                     {
-                        message: "Email không được bỏ trống!",
+                        message: "Email không được bỏ trống!!",
                         required: true,
                     },
                 ]}
