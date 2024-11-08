@@ -1,0 +1,32 @@
+.show-card {
+    width: 500px;
+
+    .show-card-row {
+        width: 100%;
+        display: flex;
+        line-height: 50px;
+        justify-content: space-between;
+
+        .card-thumbnail {
+            width: 15%;
+        }
+
+        .card-content {
+            padding: 5px;
+            align-items: center;
+            width: 85%;
+            display: flex;
+            justify-content: space-between;
+
+            .card-price {
+                color: rgb(184, 24, 24);
+            }
+        }
+    }
+
+
+    .show-btn-card {
+        text-align: right;
+        padding: 10px;
+    }
+}

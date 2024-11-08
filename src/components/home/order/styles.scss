@@ -1,0 +1,72 @@
+.order-container {
+    padding: 10px;
+    background-color: #cccc;
+}
+
+
+.col {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+    .image {
+        width: 10%;
+    }
+
+    .content {
+        width: 60%;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 10px;
+        align-items: center;
+
+        .price-quantity {
+            width: 40%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+
+    .order-price-delete {
+        align-items: center;
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.order-buy {
+    width: 100%;
+    padding: 20px;
+    line-height: 40px;
+    background-color: #fff;
+
+    .sum-price-product,
+    .provisional-price {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sum-price-product {
+        span {
+            font-size: 20px;
+            color: rgb(179, 78, 78);
+        }
+    }
+
+    .btn-buy-order {
+        button {
+            width: 100%;
+            height: 35px;
+            border-radius: 5px;
+            background-color: rgb(226, 94, 47);
+            border: 1px solid rgb(229, 153, 125);
+        }
+    }
+}

@@ -1,0 +1,13 @@
+@import "react-image-gallery/styles/scss/image-gallery.scss";
+
+.container {
+    width: 95%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f4f4f4;
+
+    .product {
+        padding: 10px;
+        line-height: 30px;
+    }
+}
