@@ -48,7 +48,7 @@ instance.interceptors.response.use(function (response) {
     if (error.config && error.response && +error.response.status === 400
         && error.config.url === "/api/v1/auth/refresh"
     ) {
-        const localhost = "https://frontendcv.tinhit.online/"
+        const localhost = "http://localhost:3001/"
         if (window.location.href === localhost) {
             //
         }

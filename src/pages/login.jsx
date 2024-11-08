@@ -45,11 +45,11 @@ const LoginPage = () => {
             <h2 style={{ textAlign: "center", fontSize: "30px" }}>Đăng nhập tài khoản</h2>
             <Divider />
             <Form.Item
-                label="FullName"
+                label="Email"
                 name="fullName"
                 rules={[
                     {
-                        message: "FullName không được bỏ trống!",
+                        message: "Email không được bỏ trống!",
                         required: true,
                     },
                 ]}
